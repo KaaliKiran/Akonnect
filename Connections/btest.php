@@ -1,0 +1,6 @@
+<?php
+
+//$btest=odbc_connect("DRIVER={IBM DB2 ODBC DRIVER};DATABASE=IIS;HOSTNAME=9.184.114.74;PORT=50000;PROTOCOL=TCPIP;", 'db2inst1', 'passw1rd');
+$btest=odbc_connect("DRIVER={IBM DB2 ODBC DRIVER};DATABASE=IIS;HOSTNAME=9.184.114.113;PORT=60000;PROTOCOL=TCPIP;CurrentSchema=DB2INST1;",'iisrdr', 'iisrdr');
+
+?>

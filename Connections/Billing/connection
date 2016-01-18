@@ -1,0 +1,7 @@
+<?php  require_once('../Connections/btest.php'); ?>
+
+
+
+
+
+mysql_select_db($database_itest, $itest);

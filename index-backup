@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>A Konnect</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="color/default.css" rel="stylesheet">
+    <link rel="stylesheet" href="slide/css/fractionslider.css">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="slide/css/reset.css" type="text/css"   charset="utf-8" />
+    <link rel="stylesheet" href="slide/css/style.css" type="text/css" charset="utf-8" />
+    <script src="slide/js/jquery-1.9.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
+    <script src="slide/js/main.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="load"></div>
+    </div>
+  
+   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1>A KONNECT</h1>
+                </a>
+            </div>
+
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                 <ul class="nav navbar-nav">
+                    <li><a href="#about">Portfolio</a></li>
+                    <li><a href="#service">Work</a></li>
+                    <li><a href="#service">We offer</a></li>
+                    <li><a href="#">Our Clientele</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>               
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+   <div class="slider-wrapper">
+                <div class="responisve-container">
+                    <div class="slider">
+                        <div class="fs_loader"></div>
+                        <div class="slide" data-in="slideLeft">
+                            <img    src="images/careers.jpg"
+                                    width="900" height="500"            
+                                    data-position="1,80" data-in="left" data-delay="10" data-out="right">                            
+                            <p      class="claim light-green"           
+                                    data-position="30,10" data-in="top" data-step="1" data-out="top" data-ease-in="easeOutBounce">Bridging Careers and Organizations </p>                       
+                            <p      class="teaser turky small"  
+                                    data-position="120,30" data-in="bottom" data-step="2" data-delay="100">Single point of contact</p>
+                            <p      class="teaser turky small"  
+                                    data-position="150,30" data-in="bottom" data-step="3" data-delay="150">Specialized recruiters</p>    
+                            <p      class="teaser turky small"  
+                                    data-position="180,30" data-in="bottom" data-step="4" data-delay="250">95% client repeat rate</p>        
+                        </div>
+                        <div class="slide" data-in="slideLeft">
+                            <img    src="images/image6.jpg"
+                                    width="275" height="120"            
+                                    data-position="150,600" data-in="left" data-delay="100" data-out="right">
+                                    
+                            <img    src="images/image7.jpg" 
+                                    width="100" height="50"         
+                                    data-position="100,450" data-in="bottomRight" data-delay="100">
+                                    
+                            <img    src="images/image8.jpg" 
+                                    width="275" height="100"
+                                    data-position="270, 600" data-in="left" data-delay="100" data-out="left">
+
+                            <img    src="images/image9.jpg" 
+                                    width="80" height="50"
+                                    data-position="100,900" data-in="left" data-delay="100" data-out="left">
+                            
+                            <p      class="claim light-green"           
+                                    data-position="30,10" data-in="top" data-step="1" data-out="top" data-ease-in="easeOutBounce">Certified Candidate System</p>
+                                            
+                            <p      class="teaser turky small"  
+                            <p      class="teaser turky small"  
+                                    data-position="120,30" data-in="bottom" data-step="2" data-delay="1500">Comprehensive Backgrounnd Checks</p>
+                            <p      class="teaser turky small"  
+                                    data-position="150,30" data-in="bottom" data-step="2" data-delay="2500">Education Verification</p>    
+                            <p      class="teaser turky small"  
+                                    data-position="180,30" data-in="bottom" data-step="2" data-delay="3500">Minimum 2 Supervisory Referneces</p>
+                            <p      class="teaser turky small"  
+                                    data-position="210,30" data-in="bottom" data-step="2" data-delay="4500">Customisable interview Questions</p>
+                             <p      class="teaser turky small"  
+                                    data-position="210,30" data-in="bottom" data-step="2" data-delay="4500">A 256 points evaluation</p>                                
+                            
+                        </div>
+                        <div class="slide">
+                            <img    src="images/map.jpg"
+                                    width="1000" height="400"            
+                                    data-position="30,-10" data-in="left" data-delay="200" data-out="right">             
+                            <p      class="claim light-green"           
+                                    data-position="30,10" data-in="top" data-step="1" data-out="top" data-ease-in="easeOutBounce">Domestic and International Placements </p>                                                            
+                            <p      class="teaser orange"
+                                    data-position="90,30" data-in="left" data-step="2" data-delay="500">Across the Globe</p>        
+                            <p      class="teaser green"    
+                                    data-position="90,30" data-in="left" data-step="2" data-special="cycle" data-delay="3000">Across All Domains</p>       
+                            <p      class="teaser turky"        
+                                    data-position="90,30" data-in="left" data-step="2" data-special="cycle" data-delay="5500" data-out="none">Creating oppurtunities</p>
+                            
+                            <img    src="images/01_outofthebox.png" 
+                                    data-position="20,330" data-in="bottomLeft" data-delay="500" data-out="fade" style="width:auto; height:auto">
+                        </div>
+
+                        <div class="slide">
+                            <img    src="images/img-sld-2.png"
+                                    width="1000" height="400"            
+                                    data-position="10,10" data-in="left" data-delay="200" data-out="right">             
+                            <p      class="claim light-green"           
+                                    data-position="30,10" data-in="top" data-step="1" data-out="top" data-ease-in="easeOutBounce">Need a change? </p>                                                            
+                            <p      class="teaser orange"
+                                    data-position="90,30" data-in="left" data-step="2" data-delay="500">New Jobs Available Everyday</p>        
+                           
+                            <p      class="teaser turky"        
+                                    data-position="90,30" data-in="left" data-step="2" data-special="cycle" data-delay="5500" data-out="none">Creating oppurtunities</p>
+                            
+                            <img    src="images/01_outofthebox.png" 
+                                    data-position="20,330" data-in="bottomLeft" data-delay="500" data-out="fade" style="width:auto; height:auto">
+                        </div>
+
+                        <div class="slide">
+                            <img    src="images/img-sld-41.jpg"
+                                    width="180" height="220"            
+                                    data-position="150,300" data-in="left" data-delay="100" data-out="left">
+                            <img    src="images/img-sld-42.jpg"
+                                    width="260" height="250"            
+                                    data-position="120,450" data-in="bottom" data-delay="200" data-out="right">
+                            <img    src="images/img-sld-43.jpg"
+                                    width="260" height="250"            
+                                    data-position="120,700" data-in="top" data-delay="150" data-out="left">
+                                            
+                                
+                            <p      class="claim light-green"           
+                                    data-position="30,10" data-in="top" data-step="1" data-out="top" data-ease-in="easeOutBounce">Need help choosing your carreer </p>                                                            
+                            <p      class="teaser orange"
+                                    data-position="90,30" data-in="left" data-step="2" data-delay="500">The Right Person for the Right Job</p>        
+                            <p      class="teaser green"    
+                                    data-position="90,30" data-in="left" data-step="2" data-special="cycle" data-delay="3000">Across All Domains</p>       
+                            <p      class="teaser turky"        
+                                    data-position="90,30" data-in="left" data-step="2" data-special="cycle" data-delay="5500" data-out="none">Creating oppurtunities</p>
+                            
+                            <img    src="images/01_outofthebox.png" 
+                                    data-position="20,330" data-in="bottomLeft" data-delay="500" data-out="fade" style="width:auto; height:auto">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+    
+    <!-- Section: about -->
+    <section id="about" class="home-section text-center">
+        <div class="heading-about">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow bounceInDown" data-wow-delay="0.4s">
+                    <div class="section-heading">
+                    <h2>About Us</h2>
+                    <i class="fa fa-2x fa-angle-down"></i>
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <hr class="marginbot-50">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="wow bounceInUp" data-wow-delay="0.2s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+                        <h5>CEO</h5>
+                        
+                        <div class="avatar"><img src="img/team/1.jpg" alt="" class="img-responsive img-circle" /></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="wow bounceInUp" data-wow-delay="0.5s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+                        <h5>BUSINESS DEVELOPER</h5>
+                        
+                        <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="wow bounceInUp" data-wow-delay="0.8s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+                        <h5>Associate</h5>
+                        
+                        <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="wow bounceInUp" data-wow-delay="1s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+                        <h5>Associate</h5>
+                        <div class="avatar"><img src="img/team/4.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>      
+        </div>
+    </section>
+    <!-- /Section: about -->
+    
+    
+           <!-- Full Page Image Header Area -->
+    <div class="header">
+        <div class="vert-text"> 
+
+            <h1>Corporate Trainings</h1>
+            <br>
+              <a href="#service" class="btn btn-default btn-lg">Find Out More</a>
+             <br>
+             <div class="social">
+            <a class="gf fa-2x" target="_blank" href="https://www.facebook.com/webvaluate"></a>
+            <a class="gg fa-2x" target="_blank" href="https://plus.google.com/115798850795857042955/about"></a>
+            <a class="gt fa-2x" target="_blank" href="http://www.twitter.com/Webvaluate"></a>             
+            <a class="gl fa-2x" target="_blank" href="https://www.linkedin.com/company/wiredelta"></a> 
+           </div> 
+        </div>
+
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    
+
+    <!-- Section: services 
+    <section id="service" class="home-section text-center bg-gray">
+        
+        <div class="heading-about">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow bounceInDown" data-wow-delay="0.4s">
+                    <div class="section-heading">
+                    <h2>Our Services</h2>
+                    <i class="fa fa-2x fa-angle-down"></i>
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <hr class="marginbot-50">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+                <div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="img/icons/service-icon-1.png" alt="" />
+                    </div>
+                    <div class="service-desc">
+                        <h5>Staffing & Solutions</h5>
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="img/icons/service-icon-2.png" alt="" />
+                    </div>
+                    <div class="service-desc">
+                        <h5>Training in all Domains</h5>
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="img/icons/service-icon-3.png" alt="" />
+                    </div>
+                    <div class="service-desc">
+                        <h5>Instructor-Led Training</h5>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="wow fadeInRight" data-wow-delay="0.2s">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="img/icons/service-icon-4.png" alt="" />
+                    </div>
+                    <div class="service-desc">
+                        <h5>Corporate Training</h5>
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>      
+        </div>
+    </section>
+     (/Section): services -->  
+    
+   
+    <!-- Services -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Our Services</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2 text-center">
+                    <div class="service-item">
+                        <a style="text-decoration:none;" href="#intro"><i class="service-icon fa fa-rocket"></i></a>
+                        <h4>Computer Based Training</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                        <a href="#intro"><i class="service-icon fa fa-magnet"></i></a>
+                        <h4>Video Based Training</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                        <a href="#intro"><i class="service-icon fa fa-shield"></i></a>
+                        <h4>Web Based Training</h4>
+                       
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                       <a href="#intro"> <i class="service-icon fa fa-pencil"></i></a>
+                        <h4>Staffing and Solutions</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Services -->
+
+    <!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+        <div class="heading-contact">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow bounceInDown" data-wow-delay="0.4s">
+                    <div class="section-heading">
+                    <h2>Get in touch</h2>
+                    <i class="fa fa-2x fa-angle-down"></i>
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <hr class="marginbot-50">
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="boxed-grey">
+                <form id="contact-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="widget-contact">
+                <h5>Main Office</h5>
+                
+                <address>
+                  <strong>Headquarters</strong><br>
+                  #82/83, 5th cross, Suryodaya Layout<br>
+                   Below The Art of Living (Sampigehalli Center) <br>
+                   Dr. ShivaramKaranth Post, Hegdenagar <br>
+                   Bengaluru - 560077
+                  <abbr title="Phone">P:</abbr> (123) 456-7890
+                </address>
+
+                <address>
+                  <strong>Email</strong><br>
+                  <a href="mailto:#">Preethi@akonnect.com</a>
+                </address>  
+                <address>
+                  <strong>We're on social networks</strong><br>
+                        <ul class="company-social">
+                            <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                            <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>   
+                </address>                  
+            
+            </div>  
+        </div>
+    </div>  
+
+        </div>
+    </section>
+    <!-- /Section: contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="wow shake" data-wow-delay="0.4s">
+                    <div class="page-scroll marginbot-30">
+                        <a href="#intro" id="totop" class="btn btn-circle">
+                            <i class="fa fa-angle-double-up animated"></i>
+                        </a>
+                    </div>
+                    </div>
+                    <p>&copy;Copyright 2014 - Akonnect All rights reserved.</p>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/all.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/hoverIntent.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+  
+    <script src="js/jquery.easing.min.js"></script> 
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

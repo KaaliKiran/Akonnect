@@ -1,0 +1,31 @@
+<?php
+$editFormAction = $_SERVER['PHP_SELF'];
+if (isset($_SERVER['QUERY_STRING'])) {
+$editFormAction .= "?" . htmlentities($_SERVER['QUERY_STRING']);}
+
+	
+if (isset($_POST['choice']))
+{
+echo $_POST['choice'];
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<body onLoad="initFormEvents();document.onChange= document.onSelect= function();" style="background-color: #C0C0C0" topmargin="6" marginheight="6">
+<form method="post" action="<?php echo $editFormAction; ?>" id="searchform" target="" autocomplete="off">
+<!--
+<input type="radio" name="choice" onChange="this.form.submit();"  onSelect="this.form.submit();" onClick="this.form.submit();" value="Yes" <?php if((isset($_POST['choice'])) && ($_POST['choice'] == 'Yes') ) {  print 'checked="checked"'; } ?> />Yes
+<input type="radio" name="choice" onChange="this.form.submit();" onSelect="this.form.submit();" onClick="this.form.submit();" value="No" <?php if((isset($_POST['choice'])) && ($_POST['choice'] == 'No')) { print 'checked="checked"';} ?> />NO 
+-->
+<?php
+echo"<input  type='radio' name='choice' value='/"1/"' onClick='this.form.submit();' Onchange='this.form.submit();' onselect='this.form.submit();'>";
+ ?>
+
+ YES
+<input type="radio" name="choice" value="0"onClick="this.form.submit();" onChange="this.form.submit();"onselect="this.form.submit();">NO
+<input type="submit" name="submit" value="submit">
+</form>
+
+</body>
+</html>

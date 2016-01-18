@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_doclist" value="name:id;datatype:int,name:lastupdated;datatype:timestamp,name:postedon;datatype:timestamp,name:postedby;datatype:string,name:countryid;datatype:int,name:docname;datatype:string,name:docdesc;datatype:string,name:helpdoc;datatype:blob,name:listposition;datatype:int" />
+	<infoitem key="UD_accesslist" value="name:id;datatype:int,name:lastupdated;datatype:timestamp,name:accessname;datatype:string,name:tablename;datatype:string" />
+	<infoitem key="UD_visadet" value="name:id;datatype:int,name:lastupdated;datatype:timestamp,name:visatype;datatype:string,name:countid;datatype:int" />
+	<infoitem key="UD_empaccess" value="name:id;datatype:int,name:lastupdated;datatype:timestamp,name:visaid;datatype:int,name:accessid;datatype:int,name:tablename;datatype:string,name:empid;datatype:int,name:visatype;datatype:string,name:countid;datatype:int,name:accessname;datatype:string,name:tablename;datatype:string" />
+</info>
